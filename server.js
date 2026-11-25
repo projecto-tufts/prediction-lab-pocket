@@ -362,7 +362,7 @@ let held = false;
 let started = 0;
 let busy = false;
 
-const suits = ['Clubs','Diamonds','Hearts','Spades'];
+const suits = ['Spades', 'Hearts', 'Clubs', 'Diamonds'];
 const ranks = ['A','2','3','4','5','6','7','8','9','10','J','Q','K'];
 
 function view(prompt, detail) {
