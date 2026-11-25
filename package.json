@@ -1,0 +1,11 @@
+{
+  "name": "prediction-lab-pocket",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Live prediction page with a blind, all-tap performer interface",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=20" }
+}

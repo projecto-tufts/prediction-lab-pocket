@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: prediction-lab-pocket
+    runtime: node
+    plan: free
+    buildCommand: npm install --ignore-scripts
+    startCommand: npm start
+    healthCheckPath: /healthz
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PERFORMER_PIN
+        sync: false
