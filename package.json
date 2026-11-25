@@ -1,8 +1,8 @@
 {
-  "name": "prediction-lab-pocket",
-  "version": "2.0.0",
+  "name": "prediction-lab-instagram",
+  "version": "3.0.0",
   "private": true,
-  "description": "Live prediction page with a blind, all-tap performer interface",
+  "description": "Pocket tap prediction server with an optional secure Instagram browser worker",
   "scripts": {
     "start": "node server.js",
     "test": "node --test"

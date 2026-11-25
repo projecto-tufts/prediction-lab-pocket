@@ -11,3 +11,5 @@ services:
         value: production
       - key: PERFORMER_PIN
         sync: false
+      - key: INSTAGRAM_BRIDGE_KEY
+        sync: false

@@ -4,3 +4,6 @@ node_modules/
 !.env.example
 .DS_Store
 *.log
+instagram-worker/.instagram-session/
+instagram-worker/debug/
+instagram-worker/*.png

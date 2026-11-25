@@ -1,0 +1,17 @@
+Prediction Lab v3 — Instagram Bio Bridge
+
+1. Upload/replace the files from inside this ZIP in your existing GitHub repository connected to Render. Keep server.js and public/ at the repository root.
+2. In Render service > Environment, add INSTAGRAM_BRIDGE_KEY set to a unique random secret (at least 24 characters), different from PERFORMER_PIN. Redeploy.
+3. Inside instagram-worker/ on YOUR Windows PC, run:
+     npm install
+     npx playwright install chromium
+     Copy-Item .env.example .env
+     notepad .env
+   Enter LAB_SERVER_URL, INSTAGRAM_BRIDGE_KEY (same as Render), and your Instagram test-account username in .env.
+4. Run `npm run login` and sign in to Instagram in the opened browser. Then press Enter in PowerShell to save your local session.
+5. Run `npm run worker` and KEEP THE PC AWAKE AND THE WORKER RUNNING.
+6. Open https://prediction-lab-pocket.onrender.com/perform, enter your PIN, and check Instagram connection. Send a test card.
+
+READ README.md for detailed setup, safety limits, and troubleshooting.
+
+This uses unofficial browser automation. The entire remote bridge was tested; live Instagram editing has not been validated with a real logged-in account. Instagram may block the automation or change its interface. Do not use your primary account initially.
